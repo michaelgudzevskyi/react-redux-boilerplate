@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import { BrowserRouter as Router } from 'react-router-dom'
 /**
  * Redux root
  */
@@ -27,7 +27,9 @@ import App from './root/App'
 ReactDOM.render(
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-            <App />
+            <Router>
+                <App />
+            </Router>
         </PersistGate>
     </Provider>,
     document.getElementById('root'),
