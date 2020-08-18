@@ -9,6 +9,7 @@
         "@testing-library/user-event": "^7.2.1",
         "antd": "^4.5.4",
         "axios": "^0.19.2",
+        "env-cmd": "^10.1.0",
         "history": "^5.0.0",
         "moment": "^2.27.0",
         "node-sass": "^4.14.1",
