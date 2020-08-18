@@ -5,14 +5,14 @@
         "allowImportExportEverywhere": false,
         "codeFrame": false
     },
-    "extends": ["airbnb", "prettier"],
+    "extends": ["airbnb", "prettier", "prettier/react"],
     "env": {
         "browser": true,
         "jest": true
     },
     "rules": {
         "no-console": "warn",
-        "max-len": ["error", { "code": 100 }],
+        "max-len": ["error", { "code": 200 }],
         "prefer-promise-reject-errors": ["off"],
         "react/jsx-filename-extension": ["off"],
         "react/prop-types": ["warn"],
