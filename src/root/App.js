@@ -14,7 +14,7 @@ import ThemeLayoute from '../layouts/ThemeLayoute'
 import AuthRoute from '../util/AuthRoute'
 
 function App() {
-    let isAuth = true
+    let isAuth = false
     return (
         <Switch>
             <AuthRoute

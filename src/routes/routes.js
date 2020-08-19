@@ -1,3 +1,3 @@
-import { Dashboard, AdminDashboard } from '../pages'
+import { Dashboard, AdminDashboard, Partners } from '../pages'
 
-export { Dashboard, AdminDashboard }
+export { Dashboard, AdminDashboard, Partners }

@@ -9,14 +9,14 @@ const components = {
     initial: {
         component: 'AdminDashboard',
         url: '/admin',
-        title: 'Início 1212',
+        title: 'AdminDashboard',
         icon: 'menu',
         menu: true,
     },
-    test: {
-        component: 'AdminDashboard2',
-        url: '/test',
-        title: 'Início test',
+    partners: {
+        component: 'Partners',
+        url: '/partners',
+        title: 'partners',
         icon: 'menu',
         menu: true,
     },
@@ -25,13 +25,13 @@ const components = {
 // component's access to roles.
 const rolesConfig = {
     admin: {
-        routes: [components.dashboard, components.initial],
+        routes: [components.dashboard],
     },
     club: {
-        routes: [components.initial, components.dashboard],
+        routes: [components.partners, components.dashboard],
     },
     common: {
-        routes: [components.test],
+        routes: [components.initial],
     },
 }
 
